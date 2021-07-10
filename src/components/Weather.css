@@ -1,0 +1,96 @@
+  .location-box{
+    color: #FFF;
+    margin: 0px auto 50px auto;
+  }
+  
+  .location-box .location{
+    text-shadow: 2px 2px rgba(50, 50, 70, 0.5);
+    font-size: 30px;
+    margin-bottom: 3px;
+  }
+  
+  .location-box h5{
+    text-shadow: 1px 1px rgba(50, 50, 70, 0.5);
+    font-weight: 300;
+  }
+  .location h2{
+    margin: 0;
+  }
+  
+  .weather-box{
+    text-align: center;
+    border-bottom: 1px solid rgb(247, 227, 227);
+
+  }
+  
+  .main{
+    font-size: 300;
+    color: #FFF;
+  }
+  
+  .temperature{
+    display: inline-block;
+    border-radius: 16px;
+    font-size: 100px;
+    font-weight: 700;
+    margin: 10px auto;
+  
+    color: #FFF;
+    background-color: rgba(255, 255, 255, 0.2);
+  
+    text-align: center;
+    text-shadow: 3px 6px rgba(50, 50, 70, 0.5);
+    
+  }
+
+  .low-high{ 
+    display: block;
+    color: #FFF;
+    margin-bottom: 50px;
+  }
+
+  .low-high span{
+    padding: 20px;
+  }
+  
+
+  .main{
+    text-shadow: 2px 2px rgba(50, 50, 70, 0.5);
+    font-size: 25px;
+    font-weight: 300;
+  } 
+
+  .weather-box .description h5{
+    color: white;
+    text-shadow: 1px 1px rgba(50, 50, 70, 0.5);
+    font-weight: 300;
+  }
+  
+  .weather-details{
+    display: flex;
+    justify-content: space-between;
+    margin: 8px;
+    border-bottom: 1px solid rgb(247, 227, 227);
+    color: white;
+  }
+
+  .weather-details h6{
+    font-weight: lighter;
+    color: rgb(219, 217, 217);
+  }
+
+  .weather-details div{
+    font-size: large;
+  }
+
+  .details-card-start{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .details-card-end{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
