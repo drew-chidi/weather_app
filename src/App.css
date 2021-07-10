@@ -1,0 +1,43 @@
+.app {
+  /* background-image: url(./assets/coldnight.jpeg); */
+  background-color: rgb(103, 191, 221);
+  text-align: center;
+  padding: 25px;
+  height: auto;
+  width: max-content;
+  margin: 0 auto;
+  min-height: 100vh;
+  transition: 0.4 ease-out;
+}
+
+.app.warm{
+  /* background-image: url(./assets/warm.jpeg); */
+  background-color: rgb(161, 105, 105);
+  transition: 0.4 ease-out;
+}
+
+.search-box{
+  margin: 0 0 30px;
+  width: auto;
+  
+}
+
+.search-box .search-bar{
+  width: 100%;
+  padding: 15px;
+  margin-top: -25px;
+
+
+
+  appearance: none;
+  background: none;
+  border: none;
+  outline: none;
+
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 0px 0px 16px 16px;
+
+  font-size: 20px;
+
+  box-shadow: 0px 5px rgba(0, 0, 0, 0.2);
+}
